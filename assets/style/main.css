@@ -1,0 +1,61 @@
+.login-modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  display: none; }
+  .login-modal-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: #fff;
+    width: 50%;
+    border-radius: 4px;
+    -webkit-animation-name: animateModal;
+            animation-name: animateModal;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s; }
+  .login-modal #loginForm {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto; }
+    .login-modal #loginForm label,
+    .login-modal #loginForm input {
+      margin-bottom: 12px; }
+    .login-modal #loginForm button {
+      margin-top: 30px; }
+
+@-webkit-keyframes animateModal {
+  from {
+    top: 0%; }
+  to {
+    top: 50%; } }
+
+@keyframes animateModal {
+  from {
+    top: 0%; }
+  to {
+    top: 50%; } }
+.close-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-bottom: 30px; }
+
+/*# sourceMappingURL=main.css.map */
